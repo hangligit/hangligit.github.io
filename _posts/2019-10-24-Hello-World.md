@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Welcome to my blog!
+layout: article
+title: Welcome to My Blog!
 ---
 
 Here is the place where I will post blogs about my recent readings, understandings and findings of new methods and theories, mainly focused on the knowledge graph. I will use this page to test my comprehension of a topic, as well as explain it to someone who is interested. If you gained new knowledge from my site, I'd be very much glad!

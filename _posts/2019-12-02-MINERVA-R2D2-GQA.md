@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "MINERVA R2D2 GQA"
 ---
 Digest from three warm-up papers

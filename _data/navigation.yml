@@ -1,4 +1,10 @@
 header:
+  - title: Publications
+    url: /publication.html
+
+  - title: Blog
+    url: /index.html
+
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -48,3 +54,19 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+
+docs-en:
+  - title:      Home
+    children:
+      - title:  Blog
+        url:    /index.html
+      - title:  Archive
+        url:    /archive.html
+      - title: About
+        url: /about.html
+  - title:      New Feature
+    children:
+      - title:  Configuration
+        url:    /docs/en/configuration
+      - title:  Navigation
+        url:    /docs/en/navigation

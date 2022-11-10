@@ -52,6 +52,48 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+          <tr onmouseout="pathfinder_stop()" onmouseover="pathfinder_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='pathfinder_image'>
+                  <img src='images/pathfinder.png' width="200"></div>
+                <img src='images/pathfinder.png' width="200">
+              </div>
+              <script type="text/javascript">
+                function pathfinder_start() {
+                  document.getElementById('pathfinder_image').style.opacity = "1";
+                }
+
+                function pathfinder_stop() {
+                  document.getElementById('pathfinder_image').style.opacity = "0";
+                }
+                pathfinder_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-88361-4_7?error=cookies_not_supported&code=d786d7d0-c29d-4a97-a1f8-0d33f064917c">
+                <papertitle>Biologically Inspired Neural Path Finding</papertitle>
+              </a>
+              <br>
+
+              <strong>Hang Li*</strong>,
+              <a href="https://vision.in.tum.de/members/khamuham">Qadeer Khan*</a>,
+              <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>,
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>,		    
+              <br>
+							<em>Brain Informatics</em>, 2022
+              <br>
+              <a href="https://github.com/hangligit/pathfinding/">code</a> /
+              <a href="https://arxiv.org/pdf/2206.05971.pdf">arXiv</a>
+              <p></p>
+              <p>
+                In this paper, we take inspiration from attributes of the brain, to develop a computational framework to find the optimal low cost path between a source node and a destination node in a generalized graph.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="tensor_stop()" onmouseover="tensor_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -185,7 +227,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last updated: 03 Nov 2021
+                Last updated: 10 Nov 2022
                 <br>
                 Website template from <a href="https://jonbarron.info/">Jon Barron</a>
               </p>

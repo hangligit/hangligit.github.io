@@ -21,10 +21,10 @@
                 <name>Hang Li</name>
               </p>
               <p>
-                I am a PhD student advised by <a href="https://www.dbs.ifi.lmu.de/~tresp/">Prof. Volker Tresp</a> at <a href="https://www.lmu.de/en/">Ludwig Maximillian University of Munich (LMU)</a> and <a href="https://www.siemens.com/global/en.html">Siemens AG</a>. I work on cognitive deep learning, knowledge graphs, and computer vision.
+                I am a PhD student advised by <a href="https://www.dbs.ifi.lmu.de/~tresp/">Prof. Volker Tresp</a> at <a href="https://www.lmu.de/en/">LMU Munich</a> and <a href="https://www.siemens.com/global/en.html">Siemens AG</a>. I work on cognitive deep learning, knowledge graphs, and multimodal learning.
               </p>
               <p>
-                 I acquired my master's degree in Robotics, Cognition, Intelligence at the department of computer science at <a href="https://www.tum.de/en/">Technical University of Munich</a>. My master's thesis is about scene graph reasoning for visual question answering, supervised by <a href="https://www.in.tum.de/en/daml/team/damlguennemann/">Prof. Stephan Günnemann</a> and <a href="https://www.dbs.ifi.lmu.de/~tresp/">Prof. Volker Tresp</a>.
+                 I acquired my master's degree in Robotics, Cognition, Intelligence at the department of computer science at <a href="https://www.tum.de/en/">Technical University of Munich</a>. My Master's Thesis is on scene graph reasoning for visual question answering, supervised by <a href="https://www.in.tum.de/en/daml/team/damlguennemann/">Prof. Stephan Günnemann</a> and <a href="https://www.dbs.ifi.lmu.de/~tresp/">Prof. Volker Tresp</a>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:hang.li@siemens.com">Email</a> &nbsp/&nbsp
@@ -45,12 +45,54 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My research focuses on a wide range of deep learning topics, particularly in cognitive deep learning, multimodal knowledge graphs, representation learning, and visual question answering. I'm interested in the intersection of cognitive neuroscience and artificial intelligence.
+                My research focuses on a wide range of deep learning topics, particularly in cognitive deep learning, multimodal representation learning, and visual question answering. I'm interested in the intersection of cognitive neuroscience and artificial intelligence.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+          <tr onmouseout="dalle_stop()" onmouseover="dalle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dalle_image'>
+                  <img src='images/dalle_before.jpg' width="200"></div>
+                <img src='images/dalle_before.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function dalle_start() {
+                  document.getElementById('dalle_image').style.opacity = "1";
+                }
+
+                function dalle_stop() {
+                  document.getElementById('dalle_image').style.opacity = "0";
+                }
+                dalle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2109.13392v2">
+                <papertitle>Do DALL-E and Flamingo Understand Each Other?</papertitle>
+              </a>
+              <br>
+              <strong>Hang Li</strong>,
+              <a href="https://jindonggu.github.io/">Jindong Gu</a>,
+              <a href="https://www.linkedin.com/in/rajat-koner/">Rajat Koner</a>,
+              <a href="https://www.linkedin.com/in/sahandsharifzadeh/?locale=de_DE">Sahand Sharifzadeh</a>,
+              <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>,
+              <br>
+							<em>Preprint</em>, 2022
+              <br>
+              <a href="https://github.com/hangligit/pathfinding/">code</a> /
+              <a href="https://arxiv.org/pdf/2206.05971.pdf">arXiv</a> /
+              <a href="https://www.jiqizhixin.com/articles/2023-01-08-2">中文</a>
+              <p></p>
+              <p>
+                Do large multimodal generative models understand each other?
+              </p>
+            </td>
+          </tr>
 
 
           <tr onmouseout="pathfinder_stop()" onmouseover="pathfinder_start()">
@@ -124,7 +166,7 @@
               Dario Konopatzki,
               <a href="https://www.dbs.ifi.lmu.de/cms/personen/mitarbeiter/ma/index.html">Yunpu Ma</a>
               <br>
-							<em>preprint</em>, 2021
+							<em>Journal of Neural Computation</em>, 2023
               <br>
               <a href="">code</a> /
               <a href="https://arxiv.org/abs/2109.13392v1">arXiv</a>
@@ -227,7 +269,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last updated: 10 Nov 2022
+                Last updated: 5 May 2023
                 <br>
                 Website template from <a href="https://jonbarron.info/">Jon Barron</a>
               </p>

@@ -105,6 +105,47 @@
           </tr>
 
 
+          <tr onmouseout="comp_stop()" onmouseover="comp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='comp_image'>
+                  <img src='images/comp_before.jpg' width="200"></div>
+                <img src='images/comp_before.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function comp_start() {
+                  document.getElementById('comp_image').style.opacity = "1";
+                }
+
+                function comp_stop() {
+                  document.getElementById('comp_image').style.opacity = "0";
+                }
+                comp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2212.12249">
+                <papertitle>Enhancing Multimodal Compositional Reasoning of Visual Language Models with Generative Negative Mining</papertitle>
+              </a>
+              <br>
+              <a href="https://jindonggu.github.io/">Ugur Sahin*</a>,
+              <strong>Hang Li*</strong>,
+              <a href="https://vision.in.tum.de/members/khamuham">Qadeer Khan</a>,
+              <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>,
+              <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>
+              <br>
+							<em>WACV</em>, 2024, to appear
+              <br>
+              <a href="https://">code</a> /
+              <a href="https://">arXiv</a>
+              <p></p>
+              <p>
+              Leveraging generative hard negative samples, we significantly enhance VLMs' performance in tasks involving multimodal compositional reasoning.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="pathfinder_stop()" onmouseover="pathfinder_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">

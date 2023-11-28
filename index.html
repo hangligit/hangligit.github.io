@@ -52,7 +52,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research Interests</heading>
+              <heading>Research Interest</heading>
               <p>
                 My research fouces on multimodal learning, including representational alignment in vision-language models, generative foundation models, and the explainability of vision-language models with scene graphs and visual grounding. 
                 In my current project, I explore the interpretable latent space of text-to-image models to align them for responsible and fair image generation.
@@ -100,6 +100,48 @@
               <p></p>
               <p>
                 We explore two types of large-scale multimodal generative models, image-to-text and text-to-image. The image-to-text model generates abstract descriptions of an image, whereas the text-to-image model decodes the text into low-level visual pixel features. These two models are closely related but their relationship is little understood. In this work, we study if large multimodal generative models understand each other. Specifically, if Flamingo describes an image in text, can DALLE reconstruct an image similar to the input image from the text?
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="concept_stop()" onmouseover="concept_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='concept_image'>
+                  <img src='images/Self_discovery.jpg' width="200"></div>
+                <img src='images/Self_discovery.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function concept_start() {
+                  document.getElementById('concept_image').style.opacity = "1";
+                }
+
+                function concept_stop() {
+                  document.getElementById('concept_image').style.opacity = "0";
+                }
+                concept_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation</papertitle>
+              </a>
+              <br>
+              <strong>Hang Li</strong>,
+              <a href="https://www.linkedin.com/in/chengzhi-shen/?originalSubdomain=de/">Chengzhi Shen</a>,
+              <a href="https://www.robots.ox.ac.uk/~phst/">Philip Torr</a>,
+              <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>,
+              <a href="https://jindonggu.github.io/">Jindong Gu</a>
+              <br>
+							<em>Preprint</em>, 2023
+              <br>
+              <!-- <a href="">code (Coming Soon)</a> / -->
+              <a href="">arXiv</a>
+              <p></p>
+              <p>
+                Diffusion-based models have gained significant popularity for text-to-image generation due to their exceptional image-generation capabilities. A risk with these models is the potential generation of inappropriate content, such as biased or harmful images. However, the underlying reasons for generating such undesired content from the perspective of the diffusion model's internal representation remain unclear. Previous work interprets vectors in an interpretable latent space of diffusion models as semantic concepts. However, existing approaches cannot discover directions for arbitrary concepts, such as those related to inappropriate concepts. In this work, we propose a novel self-supervised approach to find interpretable latent directions for a given concept. With the discovered vectors, we further propose a simple approach to mitigate inappropriate generation. Extensive experiments have been conducted to verify the effectiveness of our mitigation approach, namely, for fair generation, safe generation, and responsible text-enhancing generation.
+              <!-- Previous work interprets vectors in an interpretable latent space of diffusion models as semantic concepts. However, existing approaches cannot discover directions for arbitrary concepts, such as those related to inappropriate concepts. In this work, we propose a novel self-supervised approach to find interpretable latent directions for a given concept. With the discovered vectors, we further propose a simple approach to mitigate inappropriate generation.  -->
               </p>
             </td>
           </tr>

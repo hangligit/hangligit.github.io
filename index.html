@@ -52,7 +52,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research Interest</heading>
+              <heading>Research Interests</heading>
               <p>
                 My research fouces on multimodal learning, including representational alignment in vision-language models, generative foundation models, and the explainability of vision-language models with scene graphs and visual grounding. 
                 In my current project, I explore the interpretable latent space of text-to-image models to align them for responsible and fair image generation.
@@ -63,46 +63,14 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-          <tr onmouseout="dalle_stop()" onmouseover="dalle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='dalle_image'>
-                  <img src='images/dalle_before.jpg' width="200"></div>
-                <img src='images/dalle_before.jpg' width="200">
-              </div>
-              <script type="text/javascript">
-                function dalle_start() {
-                  document.getElementById('dalle_image').style.opacity = "1";
-                }
-
-                function dalle_stop() {
-                  document.getElementById('dalle_image').style.opacity = "0";
-                }
-                dalle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2212.12249">
-                <papertitle>Do DALL-E and Flamingo Understand Each Other?</papertitle>
-              </a>
-              <br>
-              <strong>Hang Li*</strong>,
-              <a href="https://jindonggu.github.io/">Jindong Gu*</a>,
-              <a href="https://www.linkedin.com/in/rajat-koner/">Rajat Koner</a>,
-              <a href="https://www.linkedin.com/in/sahandsharifzadeh/?locale=de_DE">Sahand Sharifzadeh</a>,
-              <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>
-              <br>
-							<em>ICCV</em>, 2023
-              <br>
-              <a href="https://dalleflamingo.github.io/">code</a> /
-              <a href="https://arxiv.org/abs/2212.12249">arXiv</a> /
-              <a href="https://www.jiqizhixin.com/articles/2023-01-08-2">cn blog</a>
-              <p></p>
-              <p>
-                We explore two types of large-scale multimodal generative models, image-to-text and text-to-image. The image-to-text model generates abstract descriptions of an image, whereas the text-to-image model decodes the text into low-level visual pixel features. These two models are closely related but their relationship is little understood. In this work, we study if large multimodal generative models understand each other. Specifically, if Flamingo describes an image in text, can DALLE reconstruct an image similar to the input image from the text?
-              </p>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
             </td>
           </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
           <tr onmouseout="concept_stop()" onmouseover="concept_start()">
@@ -134,7 +102,7 @@
               <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>,
               <a href="https://jindonggu.github.io/">Jindong Gu</a>
               <br>
-							<em>CVPR</em>, 2024, to appear
+							<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024, to appear
               <br>
               <!-- <a href="">code (Coming Soon)</a> / -->
               <a href="https://arxiv.org/abs/2311.17216">arXiv</a>
@@ -144,6 +112,49 @@
               </p>
             </td>
           </tr>
+
+
+          <tr onmouseout="dalle_stop()" onmouseover="dalle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dalle_image'>
+                  <img src='images/dalle_before.jpg' width="200"></div>
+                <img src='images/dalle_before.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function dalle_start() {
+                  document.getElementById('dalle_image').style.opacity = "1";
+                }
+
+                function dalle_stop() {
+                  document.getElementById('dalle_image').style.opacity = "0";
+                }
+                dalle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2212.12249">
+                <papertitle>Do DALL-E and Flamingo Understand Each Other?</papertitle>
+              </a>
+              <br>
+              <strong>Hang Li*</strong>,
+              <a href="https://jindonggu.github.io/">Jindong Gu*</a>,
+              <a href="https://www.linkedin.com/in/rajat-koner/">Rajat Koner</a>,
+              <a href="https://www.linkedin.com/in/sahandsharifzadeh/?locale=de_DE">Sahand Sharifzadeh</a>,
+              <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>
+              <br>
+							<em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2023
+              <br>
+              <a href="https://dalleflamingo.github.io/">code</a> /
+              <a href="https://arxiv.org/abs/2212.12249">arXiv</a> /
+              <a href="https://www.jiqizhixin.com/articles/2023-01-08-2">cn blog</a>
+              <p></p>
+              <p>
+                We explore two types of large-scale multimodal generative models, image-to-text and text-to-image. The image-to-text model generates abstract descriptions of an image, whereas the text-to-image model decodes the text into low-level visual pixel features. These two models are closely related but their relationship is little understood. In this work, we study if large multimodal generative models understand each other. Specifically, if Flamingo describes an image in text, can DALLE reconstruct an image similar to the input image from the text?
+              </p>
+            </td>
+          </tr>
+
 
 
           <tr onmouseout="comp_stop()" onmouseover="comp_start()">
@@ -175,9 +186,9 @@
               <a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a>,
               <a href="https://www.dbs.ifi.lmu.de/~tresp/">Volker Tresp</a>
               <br>
-							<em>WACV</em>, 2024
+							<em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em>, 2024
               <br>
-              <a href="https://">code</a> /
+              <a href="https://">code</a>
               <a href="https://">arXiv</a>
               <p></p>
               <p>

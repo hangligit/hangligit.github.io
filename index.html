@@ -30,14 +30,12 @@
                 <name>Hang Li</name>
               </p>
               <p>
-                I am a PhD student advised by <a href="https://www.dbs.ifi.lmu.de/~tresp/">Prof. Dr. Volker Tresp</a> at <a href="https://www.lmu.de/en/">LMU Munich</a> and <a href="https://www.siemens.com/global/en.html">Siemens AG</a>. 
-                Prior to that, I received my Master's degree in computer science at <a href="https://www.tum.de/en/">Technical University of Munich</a>, supervised by <a href="https://www.dbs.ifi.lmu.de/~tresp/">Prof. Dr. Volker Tresp</a> and <a href="https://www.in.tum.de/en/daml/team/damlguennemann/">Prof. Dr. Stephan Günnemann</a>.
+                I am a Research Scientist at <a href="https://about.meta.com/">Meta GenAI</a> in London. Before Meta, I conducted my doctoral research in Computer Science at the <a href="https://www.lmu.de/en/">University of Munich</a> and <a href="https://www.siemens.com/global/en.html">Siemens AG</a> under <a href="https://www.dbs.ifi.lmu.de/~tresp/">Prof. Dr. Volker Tresp</a>, and earned my M.Sc. at the <a href="https://www.tum.de/en/">Technical University of Munich</a>.
               </p>
               <p>
               </p>
               <p style="text-align:center">
                 <a href="mailto:bitlihang@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/HangLi-CV.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.de/citations?user=gZrfKq0AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://github.com/hangligit">Github</a> &nbsp/&nbsp
                 <a href="https://twitter.com/HangLi11">Twitter</a> &nbsp/&nbsp
@@ -54,8 +52,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research Interests</heading>
               <p>
-                My research fouces on multimodal learning, including representational alignment in vision-language models, generative foundation models, and the explainability of vision-language models with scene graphs and visual grounding. 
-                In my current project, I explore the interpretable latent space of text-to-image models to align them for responsible and fair image generation.
+                My research aims to build generative models that people can steer at scale: systems whose outputs faithfully reflect what was asked of them, and whose internals can be understood and aligned. This work spans the diffusion and video foundation models themselves, the multimodal representations that ground them, and the interpretable mechanisms that make them accountable.
               </p>
             </td>
           </tr>
@@ -71,6 +68,80 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+          <tr onmouseout="saber_stop()" onmouseover="saber_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='saber_image'>
+                  <img src='images/saber.jpg' width="200"></div>
+                <img src='images/saber.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function saber_start() {
+                  document.getElementById('saber_image').style.opacity = "1";
+                }
+
+                function saber_stop() {
+                  document.getElementById('saber_image').style.opacity = "0";
+                }
+                saber_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://franciszzj.github.io/Saber/">
+                <papertitle>Scaling Zero-Shot Reference-to-Video Generation</papertitle>
+              </a>
+              <br>
+              Zijian Zhou, Shikun Liu, Haozhe Liu, Haonan Qiu, Zhaochong An, Weiming Ren, Zhiheng Liu, Xiaoke Huang, Kam Woh Ng, Tian Xie, Xiao Han, Yuren Cong, <strong>Hang Li</strong>, Chuyan Zhu, Aditya Patel, Tao Xiang, Sen He
+              <br>
+								<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026
+              <br>
+              <a href="https://franciszzj.github.io/Saber/">project page</a> /
+              <a href="https://arxiv.org/abs/2512.06905">arxiv</a>
+              <p></p>
+              <p>
+              A zero-shot reference-to-video generation framework trained only on video-text pairs, outperforming methods trained with explicit reference-video-text triplets on OpenS2V-Eval.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="leffa_stop()" onmouseover="leffa_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='leffa_image'>
+                  <img src='images/leffa.jpg' width="200"></div>
+                <img src='images/leffa.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function leffa_start() {
+                  document.getElementById('leffa_image').style.opacity = "1";
+                }
+
+                function leffa_stop() {
+                  document.getElementById('leffa_image').style.opacity = "0";
+                }
+                leffa_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/franciszzj/Leffa">
+                <papertitle>Learning Flow Fields in Attention for Controllable Person Image Generation</papertitle>
+              </a>
+              <br>
+              Zijian Zhou, Shikun Liu, Xiao Han, Haozhe Liu, Kam Woh Ng, Tian Xie, Yuren Cong, <strong>Hang Li</strong>, Mengmeng Xu, Juan-Manuel Pérez-Rúa, Aditya Patel, Tao Xiang, Miaojing Shi, Sen He
+              <br>
+								<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2025
+              <br>
+              <a href="https://github.com/franciszzj/Leffa">code</a> /
+              <a href="https://arxiv.org/abs/2412.08486">arxiv</a>
+              <p></p>
+              <p>
+              A model-agnostic attention regularization that guides target queries to the correct reference region, reducing fine-grained texture distortion and achieving state-of-the-art virtual try-on and pose transfer.
+              </p>
+            </td>
+          </tr>
 
 
           <tr onmouseout="concept_stop()" onmouseover="concept_start()">
@@ -190,8 +261,9 @@
               <br>
 							<em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em>, 2024
               <br>
-              <a href="https://">code</a> /
-              <a href="https://">arxiv</a>
+              <a href="https://ugorsahin.github.io/enhancing-multimodal-compositional-reasoning-of-vlm.html">project page</a> /
+              <a href="https://github.com/ugorsahin/Generative-Negative-Mining">code</a> /
+              <a href="https://arxiv.org/abs/2311.03964">arxiv</a>
               <p></p>
               <p>
               Leveraging generative hard negative samples, we significantly enhance VLMs' performance in tasks involving multimodal compositional reasoning.
@@ -374,7 +446,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Last updated: 10 April 2024
+                Last updated: May 2026
                 <br>
                 Website template from <a href="https://jonbarron.info/">Jon Barron</a>
               </p>
